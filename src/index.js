@@ -26,9 +26,9 @@ document.addEventListener('change', (e) => {
   if (e.target.classList.contains('checkbox')) {
     const { index } = e.target.dataset;
     const db = JSON.parse(localStorage.getItem('list'));
-    
+
     toDoList.list[index].complete = !db[index].complete;
-    localStorage.setItem('list', JSON.stringify(toDoList.list));    
+    localStorage.setItem('list', JSON.stringify(toDoList.list));
     document.querySelectorAll('.taskElement')[index].classList.toggle('line-through');
   }
 });

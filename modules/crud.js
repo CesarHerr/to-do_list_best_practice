@@ -6,7 +6,6 @@ class TodoList {
   constructor() {
     this.list = JSON.parse(localStorage.getItem('list')) || [];
     this.enterEvent();
-    
   }
 
   add(text) {

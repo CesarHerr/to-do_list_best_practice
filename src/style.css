@@ -12,7 +12,7 @@ body {
 section {
   width: 80%;
   margin: 4em auto;
-  background-color: #fff;  
+  background-color: #fff;
 }
 
 .container {
@@ -88,6 +88,10 @@ p {
   color: #788191;
 }
 
+.fa-trash-can {
+  font-size: 1.2rem;
+}
+
 .remove-btn:hover,
 .fa-arrows-rotate:hover,
 .fa-trash-can:hover {
@@ -107,8 +111,4 @@ p {
   text-decoration: line-through;
   font-size: 1rem;
   color: red;
-}
-
-.fa-trash-can {
-  font-size: 1.2rem;
 }
