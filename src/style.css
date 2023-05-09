@@ -9,10 +9,10 @@ body {
   background-color: rgb(220, 223, 223);
 }
 
-div {
+section {
   width: 80%;
   margin: 4em auto;
-  background-color: #fff;
+  background-color: #fff;  
 }
 
 .container {
