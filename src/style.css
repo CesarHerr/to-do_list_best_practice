@@ -53,11 +53,6 @@ span {
   width: 100%;
 }
 
-li button {
-  background: none;
-  border: none;
-}
-
 .add::placeholder {
   font-style: italic;
   padding-left: 1em;
@@ -94,7 +89,8 @@ p {
 }
 
 .remove-btn:hover,
-.fa-arrows-rotate:hover {
+.fa-arrows-rotate:hover,
+.fa-trash-can:hover {
   cursor: pointer;
 }
 
