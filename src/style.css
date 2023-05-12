@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  background-color: rgb(220, 223, 223);
+}
+
+section {
+  width: 80%;
+  margin: 4em auto;
+  background-color: #fff;
+}
+
+.container {
+  border: solid 2px rgb(213, 169, 169);
+  border-radius: 1rem;
+}
+
+h1 {
+  font-size: 1.3rem;
+  display: inline;
+  margin-top: 5px;
+  height: 20px;
+}
+
+.header {
+  margin: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.add {
+  width: 100%;
+  border: solid 1px rgb(200, 187, 187);
+  height: 40px;
+}
+
+li {
+  width: 100%;
+  padding: 0 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  border-bottom: solid 1px rgb(200, 187, 187);
+}
+
+span {
+  width: 100%;
+}
+
+.add::placeholder {
+  font-style: italic;
+  padding-left: 1em;
+}
+
+.check {
+  padding-left: 1em;
+}
+
+p {
+  display: inline;
+  margin-left: 0.5em;
+}
+
+.clear {
+  width: 100%;
+  height: 40px;
+  border: solid 1px rgb(200, 187, 187);
+  color: rgb(156, 143, 143);
+  border-radius: 0 0 1rem 1rem;
+}
+
+.clear:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.fa-arrows-rotate {
+  margin-top: 10px;
+  position: absolute;
+  right: 12%;
+  font-size: 1.2rem;
+  color: #788191;
+}
+
+.fa-trash-can {
+  font-size: 1.2rem;
+}
+
+.remove-btn:hover,
+.fa-arrows-rotate:hover,
+.fa-trash-can:hover {
+  cursor: pointer;
+}
+
+.taskElement {
+  height: 30px;
+  font-size: 1.2rem;
+  width: 90%;
+  border: 0;
+  margin-left: 5px;
+  outline: 0;
+}
+
+.line-through {
+  text-decoration: line-through;
+  font-size: 1rem;
+  color: red;
+}
